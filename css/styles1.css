@@ -91,6 +91,15 @@
 .resume object {
   padding-top: 35px;
 }
+.social ul {
+  display: inline-block;
+  text-align: center;
+}
+.social li {
+    padding: 0 5px;
+    border-bottom: none;
+    display: inline-block;
+  }
 .wrap {
   position: relative;
 }
