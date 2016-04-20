@@ -6,6 +6,9 @@
 .menu-link a:hover {
   text-decoration: none;
 }
+.inlineblock {
+  display: inline-block;
+}
 .panel li {
   font-family: "Raleway";
   font-size: 18px;
@@ -71,9 +74,6 @@
   font-size: 56px;
   padding-top: 75px;
 }
-.inlineblock {
-  display: inline-block;
-}
 .containerr {
   text-align: center;
   padding-top: 45px;
@@ -88,6 +88,21 @@
   font-family: "Pacifico";
   font-size: 56px;
 }
+.nelson p {
+  font-family: "Raleway";
+  font-size: 20px;
+  width: auto;
+}
+.sixteen p {
+  font-family: "Raleway";
+  font-size: 20px;
+  width: auto;
+}
+.todoapp p {
+  font-family: "Raleway";
+  font-size: 20px;
+  width: auto;
+}
 .resume object {
   padding-top: 35px;
 }
@@ -96,10 +111,23 @@
   text-align: center;
 }
 .social li {
-    padding: 0 5px;
-    border-bottom: none;
-    display: inline-block;
+  padding: 0 5px;
+  border-bottom: none;
+  display: inline-block;
   }
+.social ul:first-of-type {
+  font-family: "Raleway";
+  font-size: 15px;
+  width: auto;
+}
+.social1 ul {
+  padding-top: 15px;
+  position: relative;
+  right: 70px;
+}
+.social2 ul {
+  float:right;
+}
 .wrap {
   position: relative;
 }
